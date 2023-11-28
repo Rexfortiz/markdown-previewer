@@ -46,9 +46,6 @@ There's also [links](https://www.freecodecamp.org), and
         
         ![freeCodeCamp Logo](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg)`
 
-
-
-
 function App() {
   
   const [editorValue, setEditorValue] = useState(defaultMarkdown)
