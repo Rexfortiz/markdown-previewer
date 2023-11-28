@@ -1,0 +1,71 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 20px;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  
+}
+#title{
+  text-align: center;
+}
+#editorBox {
+  margin-bottom: 50px;
+  width: 40%;
+  box-sizing: border-box;
+  height: 100px;
+}
+
+.topBar{
+  background-color: rgb(121, 21, 21);
+  margin-bottom: -10px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  height:30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img{
+  width: 200px;
+}
+#editor {
+  margin: -10px 0 0 0;
+  width: 100%;
+  height: inherit;
+  box-sizing: border-box;
+  font-size: 14px;
+  background-color: rgb(56, 56, 56);
+  resize: none;
+  padding: 10px;
+  overflow: auto;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+#previewBox{
+  margin-bottom: 20px;
+  width: 70%;
+
+}
+
+#preview{
+  margin: -10px 0 0 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  background-color: rgb(56, 56, 56);
+  resize: none;
+  padding: 10px;
+}
+button{
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+button :hover{
+  color: rgb(194, 194, 194);
+}
